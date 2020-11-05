@@ -1,0 +1,206 @@
+/*font-family: 'Inter', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: #f0f2f4;
+}
+.top-header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.top-header ul li{
+    color: #424242;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.top-header ul li i{
+    padding-right: 10px;
+}
+.fb{
+    color: #1287bf;
+    font-size: 25px;
+    padding: 0 !important;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #424242;
+    padding-right: 30px;
+    transition: .4s all ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+/*
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+*/
+.banner{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.hg{
+    min-height: 80vh;
+}
+.title{
+    padding: 50px;
+    text-align: center;
+   
+}
+.title h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.title p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.title a{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.btn-warning{
+    background-color: #f8cd53;
+    border-color: #f8cd53;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.btn-warning:hover{
+    background-color: red;
+    border-color: red;
+    color: #ffffff;
+}
+
+/*---------------about-us section css starts here---------------*/
+.subtitle, .feature{
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.subtitle h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.subtitle p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.subtitle::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 46%;
+    width: 0px;
+    height: 4px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+}
+.subtitle:hover::before{
+    width: 50px;
+}
+.feature h5{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0 10px 0;
+}
+.feature p{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*---------------about-us section css starts here---------------*/
+
+/*---------------our-approach section css starts here---------------*/
+.our-approach{
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.bg{
+    background-color: #ffffff;
+    
+}
+.img{
+    position: relative;
+}
+.step{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    background-color: red;
+    transform: translatey(-50%);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.step h3, .step-reverse h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.step p, .step-reverse p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    padding: 20px 40px 0 90px;
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.text h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.step-reverse{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    background-color: red;
+    transform: translatey(-50%);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+/*----------------our-approach section css ends here----------------*/
